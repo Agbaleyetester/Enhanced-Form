@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>Week 2 Assignment</head>
+<p>Enhancing Content & Building Forms</p>
+
+<body>
+    <div>
+        <h3>List</h3>
+        <p>Order List</p>
+        <Ol>
+            <li>Blue</li>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Brown</li>
+        </Ol>
+
+        <p>Unordered List</p>
+        <ul>
+            <li>Car</li>
+            <li>Lorry</li>
+            <li>Bus</li>
+            <li>Bicycle</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Table</h3>
+        <p>The table below shows the data of students recently admitted in DPC College</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Olaleye Ibrahim</td>
+                    <td>26</td>
+                    <td>Nigeria</td>
+                    <td>Ogun State</td>
+                </tr>
+                <tr>
+                    <td>Abubakar Abdullahi</td>
+                    <td>25</td>
+                    <td>Nigeria</td>
+                    <td>Ogun State</td>
+                </tr>
+                <tr>
+                    <td>Alex Fred</td>
+                    <td>29</td>
+                    <td>USA</td>
+                    <td>Indianapolis</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>Media</h3>
+        <p>Audio</p>
+        <audio controls>
+            <source src="Asake ft Tiakola.mp3" type="audio/mp3">
+            Your browser does not support the audio element
+        </audio>
+    </div>
+    <div>
+        <h3>Media</h3>
+        <p>Video</p>
+        <video controls width="640" height="360">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element
+        </video>
+    </div>
+    <div>
+        <h3>Form Attribute</h3>
+        <form>
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"
+                    autocomplete="name"><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"
+                    autocomplete="name"><br><br>
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select><br><br>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"
+                    autocomplete="name"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
